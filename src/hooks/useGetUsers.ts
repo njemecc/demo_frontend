@@ -18,5 +18,6 @@ export const useGetUsers = () => {
       revalidateIfStale: false,
     }
   );
+
   return { data, error };
 };
